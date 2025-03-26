@@ -1,0 +1,65 @@
+
+.cart-container {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.cart-item img {
+    width: 80px;
+    border-radius: 5px;
+}
+
+#proceed-btn {
+    background: #ff0080;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#billing-section {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#billing-form input, #billing-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#billing-form button {
+    background: #ff0080;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}

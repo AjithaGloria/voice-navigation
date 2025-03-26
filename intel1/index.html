@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ShopEase</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#clothing">Clothing</a></li>
+                <li><a href="#appliances">Home Appliances</a></li>
+                <li><a href="#slippers">Slippers</a></li>
+                <li><a href="#accessories">Accessories</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+        <button id="voice-start">🎤 Voice Control</button>
+    </header>
+
+    <!-- Clothing Section -->
+    <section class="products" id="clothing">
+        <h2>Clothing</h2>
+        <div class="product" data-id="1" data-name="T-Shirt" data-price="499" data-image="tshirt.jpg">
+            <img src="tshirt.jpg" alt="T-Shirt">
+            <h3>T-Shirt</h3>
+            <p>Price: ₹499</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="2" data-name="Jeans" data-price="999" data-image="jeans.jpg">
+            <img src="jeans.jpg" alt="Jeans">
+            <h3>Jeans</h3>
+            <p>Price: ₹999</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </section>
+
+    <!-- Home Appliances Section -->
+    <section class="products" id="appliances">
+        <h2>Home Appliances</h2>
+        <div class="product" data-id="3" data-name="Microwave" data-price="5999" data-image="microwave.jpg">
+            <img src="microwave.jpg" alt="Microwave">
+            <h3>Microwave</h3>
+            <p>Price: ₹5999</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="4" data-name="Vacuum Cleaner" data-price="7999" data-image="vacuum.jpg">
+            <img src="vacuum.jpg" alt="Vacuum Cleaner">
+            <h3>Vacuum Cleaner</h3>
+            <p>Price: ₹7999</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </section>
+
+    <!-- Slippers Section -->
+    <section class="products" id="slippers">
+        <h2>Slippers</h2>
+        <div class="product" data-id="5" data-name="Casual Slippers" data-price="399" data-image="slippers.jpg">
+            <img src="slippers.jpg" alt="Slippers">
+            <h3>Casual Slippers</h3>
+            <p>Price: ₹399</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="6" data-name="Sports Sandals" data-price="899" data-image="sandals.jpg">
+            <img src="sandals.jpg" alt="Sports Sandals">
+            <h3>Sports Sandals</h3>
+            <p>Price: ₹899</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </section>
+
+    <!-- Accessories Section -->
+    <section class="products" id="accessories">
+        <h2>Accessories</h2>
+        <div class="product" data-id="7" data-name="Sunglasses" data-price="1299" data-image="sunglasses.jpg">
+            <img src="sunglasses.jpg" alt="Sunglasses">
+            <h3>Sunglasses</h3>
+            <p>Price: ₹1299</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product" data-id="8" data-name="Watch" data-price="1999" data-image="watch.jpg">
+            <img src="watch.jpg" alt="Watch">
+            <h3>Watch</h3>
+            <p>Price: ₹1999</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 ShopEase. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
